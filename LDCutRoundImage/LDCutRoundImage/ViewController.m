@@ -10,8 +10,11 @@
 
 @implementation ViewController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.iconView.image = [UIImage imageNamed:@"2"].cutImage;
     
 }
 
